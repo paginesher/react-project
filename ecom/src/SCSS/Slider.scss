@@ -1,0 +1,151 @@
+
+
+.slider {
+    position: relative;
+    width: 320px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    i {
+        font-size: 2vw;
+    }
+}
+
+.slide {
+    position: relative;
+    min-width: 100%;
+    height: 240px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+%btn-styles {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 12.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: pink;
+    transition: 0.5s;
+    &:hover {
+        background: rgba(0, 0, 0, 0.356);
+        cursor: pointer;
+        i {
+            color: whitesmoke;
+        }
+    }
+}
+
+#goLeft {
+    left: 0;
+    @extend %btn-styles;
+}
+
+#goRight {
+    right: 0;
+    @extend %btn-styles;
+}
+
+@media only screen and (min-width: 375px) {
+    .slider {
+        width: 375px;
+        height: 500px;
+    }
+    
+    .slide {
+        height: 400px;
+      
+    }
+    %btn-styles {
+        top: 33.3%;
+        height: 234px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .slider {
+        width: 425px;
+        height: 500px;
+    }
+    
+    .slide {
+        height: 400px;
+      
+    }
+    %btn-styles {
+        top: 36.4%;
+        height: 268px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .slider {
+        width: 768px;
+        height: 30rem;
+    }
+    
+    .slide {
+        height: 30rem;
+      
+    }
+    %btn-styles {
+        top: 50%;
+        height: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .slider {
+        width: 1024px;
+        height: 30rem;
+    }
+    
+    .slide {
+        height: 30rem;
+      
+    }
+    %btn-styles {
+        top: 50%;
+        height: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .slider {
+        width: 1440px;
+        height: 40rem;
+    }
+    
+    .slide {
+        height: 40rem;
+      
+    }
+    %btn-styles {
+        top: 50%;
+        height: 40rem;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .slider {
+        width: 2560px;
+        height: 40rem;
+    }
+    
+    .slide {
+        height: 40rem;
+      
+    }
+    %btn-styles {
+        top: 50%;
+        height: 40rem;
+    }
+}

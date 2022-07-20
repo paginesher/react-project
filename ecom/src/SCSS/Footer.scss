@@ -1,0 +1,97 @@
+/*footer*/
+
+footer {
+    background-color: black;
+    width: 320px;
+  }
+  
+  .media {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
+  }
+  
+  .media a {
+    padding: 12px;
+  }
+  
+  #logo-footer {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    color: pink;
+    text-decoration: none;
+    padding: 2px;
+  }
+  
+  .copy {
+    text-align: center;
+    color: pink;
+    margin: 0;
+    padding: 25px 0 15px 0;
+  }
+  
+  /* Facebook */
+  
+  a.fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  /*twitter*/
+  
+  a.fa-twitter {
+    background: #55acee;
+    color: black;
+  }
+  
+  /*youtube*/
+  
+  a.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  /*instagram*/
+  
+  a.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  @media only screen and (min-width: 375px) {
+    footer {
+        width: 375px;
+      }
+  }
+
+  @media only screen and (min-width: 425px) {
+    footer {
+        width: 425px;
+      } 
+  }
+
+  @media only screen and (min-width: 768px) {
+    footer {
+        width: 768px;
+      }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    footer {
+        width: 1024px;
+      }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    footer {
+        width: 1440px;
+      }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    footer {
+        width: 2560px;
+      }
+  }
