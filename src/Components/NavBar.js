@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <nav id="navbar">
             <div class="container">
-                <h1 class="logo"><span class="text-primary">GunPla-Y</span></h1>
+                <h1 class="logo"><span class="text-primary">Enchanted Forest</span></h1>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/product'>Product</Link></li>
