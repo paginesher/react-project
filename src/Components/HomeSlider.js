@@ -14,6 +14,7 @@ function Slider () {
        <ImgComp src={i2} />,
        <ImgComp src={i3} />,
     
+     
        ];
        const [x, setX] = useState(0);
        const goLeft = () => {

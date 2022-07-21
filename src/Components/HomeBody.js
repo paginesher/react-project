@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import '../SCSS/HomeBody.scss';
 import i1 from '../ProductImg/52.jpg';

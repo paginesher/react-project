@@ -1,99 +1,99 @@
 [
     {
         "id": 1,
-        "img": "/ProductImg/42.jpg",
+        "img": "/Productimg/42.jpg",
         "title": " Amethyst Cluster",
         "price": 58.97,
         "description": "Metaphysical crystal practitioners may also believe that amethyst geodes or crystals placed in your home will absorb negative energy and create an air of tranquility in the space. ",
-        
+        "path" : "/Components/Productimg/42.jpg"
     },
     {
         "id": 2,
-        "img": "../ProductImg/45.jpg",
+        "img": "../Productimg/45.jpg",
         "title": "Grey Amethyst Cluster",
         "price":29.95,
         "description": "The spiritual meaning of Amethyst is groundedness, tranquility, and calm. ",
-   
+        "path":"/Components/Productimg/45.jpg"
     },
     {
         "id": 3,
-        "img": "../ProductImg/55.jpg",
+        "img": "../Productimg/55.jpg",
         "title": "Brazilian Amethyst Geode",
         "price": 89.67,
         "description": "Brazilian Amethyst also provides a wonderful peaceful energy for meditations, and helps with developing intuition and psychic abilities.",
-        
+        "path":"/Components/Productimg/55.jpg"
     },
     {
         "id": 4,
-        "img": "../ProductImg/23.jpg",
+        "img": "../Productimg/23.jpg",
         "title": "Smoky Quartz Mushroom Carving",
         "price": 42.67,
         "description": "Smoky quartz is known to assist with improving overall wellbeing, the release of unwanted emotional baggage, surrendering old wounds, stability and grounding.",
-       
+        "path":"/Components/Productimg/23.jpg"
     },
     {
         "id": 5,
-        "img": "../ProductImg/27.jpg",
+        "img": "../Productimg/27.jpg",
         "title": "Ocean Jasper Mushroom Carving",
         "price": 28.99,
         "description": "Jasper provides protection and absorbs negative energy. It balances yin and yang.",
-      
+        "path":"/Components/Productimg/27.jpg"
     },
     {
         "id": 6,
-        "img": "../ProductImg/39.jpg",
+        "img": "../Productimg/39.jpg",
         "title": "Dalmation Jasper Mushroom Carving",
         "price": 18.67,
         "description": "Dalmatian Jasper is believed to reconnect us with our playful nature. ",
-       
+        "path":"/Components/Productimg/39.jpg"
     },
     {
         "id": 7,
-        "img": "../ProductImg/50.jpg",
+        "img": "../Productimg/50.jpg",
         "title": "Flower Agate Sphere",
         "price":51.88 ,
         "description": "Strongly connected to the Heart chakra, Flower Agate is often used to promote spontaneity and joy. ",
-        
+        "path":"/Components/Productimg/50.jpg"
     },
     {
         "id": 8,
-        "img": "../ProductImg/25.jpg",
+        "img": "../Productimg/25.jpg",
         "title": "Purple Mica Sphere",
         "price": 47.99,
         "description": "Mica is well known as a very gentle stone best for stabilizing mood.",
-       
+        "path":"/Components/Productimg/25.jpg"
     },
     {
         "id": 9,
-        "img": "../ProductImg/24.jpg",
+        "img": "../Productimg/24.jpg",
         "title": "Amaonite Sphere",
         "price": 27.86,
         "description": "Amazonite is used to treat fatigue, trauma or anything else that may take energy away from a person.",
-       
+        "path":"/Components/Productimg/24.jpg"
     },
     {
         "id": 10,
-        "img": "../ProductImg/34.jpg",
+        "img": "../Productimg/34.jpg",
         "title": "Chrysocolla Malachite Turquoise and Some with Azurite Veins Tower",
         "price": 31.23,
         "description": "Chrysocolla has the ability to bring harmony, increase wisdom and guide you toward discretion.",
-        
+        "path":"/Components/Productimg/34.jpg"
     },
     {
         "id": 11,
-        "img": "../ProductImg/29.jpg",
+        "img": "../Productimg/29.jpg",
         "title": "Chevron Amethyst Tower",
         "price": 25.39,
         "description": "This stone is often said to be stronger and more powerful, especially with higher chakras, focusing often on the third eye and crown chakras.",
-        
+        "path":"/Components/Productimg/29.jpg"
     },
     {
         "id": 12,
-        "img": "../ProductImg/31.jpg",
+        "img": "../Productimg/31.jpg",
         "title": "Tianshan Blue Quartz Tower",
         "price": 18.96,
         "description": "Tianshan blue alleviates fear and enhances creativity and expression. It has the effect of balancing the throat chakra.",
-       
+        "path":"/Components/Productimg/31.jpg"
     }
     
 ]
