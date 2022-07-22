@@ -11,6 +11,7 @@ function NavBar() {
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/product'>Product</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
+
                 </ul>
             </div>
         </nav>
@@ -18,4 +19,3 @@ function NavBar() {
 }
 
 export default NavBar;
-

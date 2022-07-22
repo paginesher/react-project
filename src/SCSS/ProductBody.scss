@@ -1,10 +1,10 @@
 .grid-containers{
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
     height: 300rem;
     width: 320px;
     padding: 60px 60px;
-    background-color: black;
+    background-color: rgb(58, 98, 82);
   }
 
   .grid-containers img {
