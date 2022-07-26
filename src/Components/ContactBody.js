@@ -46,6 +46,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
+
         <main id="contact__container">
           <form ref={(form => this.form = form)} onSubmit={this.validate}>
             <label for="fname">First Name</label>
