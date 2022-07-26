@@ -1,3 +1,8 @@
+
+body {
+  background-color: rgb(58, 98, 82);
+  color: rgb(250, 247, 248);
+}
 .grid-containers{
     display: grid;
     padding: 60px 60px;
@@ -6,18 +11,25 @@
     grid-row-gap: 3em;
     grid-column-gap: 3%;
     background-color: rgb(58, 98, 82);
+    text-align: center;
   }
 
   .grid-containers img {
       height: 200px;
       width: 200px;
+      border-radius: .5rem;
   }
-  button{
+.center{
+text-align: center;
+}
+button{
+  background:pink;
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: .5rem;
+}
 
-    border-radius: .5rem;
-  }
-
-  @media only screen and (min-width: 375px) {
+ @media only screen and (min-width: 375px) {
     .grid-containers{
       width: 375px;
       height: 300rem;

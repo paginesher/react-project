@@ -1,15 +1,26 @@
+body{
+    background-image: url('../SliderImg/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
 .form__box {
+    
     width: 100%;
-    padding: 12px;
-    border-radius: 4px;
+    padding: 30px 40px;
+    border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
+   
 }
 
 .submit__button {
-    background-color: grey;
+    background-color: pink;
     color: black;
     padding: 12px 20px;
     border: none;
@@ -21,10 +32,10 @@
     background-color: white;
 }
 
-.contact__container {
-    background-color: black;
+#contact__container {
+    // background-image: url('../SliderImg/hero.png');
     color: white;
-    padding: 20px;
+    padding: 25px 25px 25px 25px;
 }
 
 textarea {
@@ -39,10 +50,5 @@ textarea {
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
-}
-
-body {
-    background-color: rgb(58, 98, 82);
-    color: pink;
 }
 

@@ -34,7 +34,7 @@ export default class PriceFilter extends React.Component {
                 <label htmlFor="price-low">$Min</label>
                 <input id="price-low" type="text" name="price-low" value={this.state.low} onChange={this.handleChange} />
                 <span>To </span>
-                <label htmlFor="price-high">$High</label>
+                <label htmlFor="price-high">$Max</label>
                 <input id="price-high" type="text" name="price-high" value={this.state.high} onChange={this.handleChange} />
             </div>
         )

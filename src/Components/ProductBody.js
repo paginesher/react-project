@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ProductsInfo from './Products.json';
 import Product from './ProductItems'
 import PriceFilter from './PriceFilter/PriceFilter.js';
+import '../SCSS/ProductBody.scss'
 
 //create a component for products *live in component folder
 //element for filter for, price.
