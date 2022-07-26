@@ -2,20 +2,33 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../SCSS/Nav.scss'
 
-function NavBar() {
-    return (
-        <nav id="navbar">
-            <div class="container">
-                <h1 class="logo"><span class="text-primary">Enchanted Forest</span></h1>
-                <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/product'>Product</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+const Navbar = () => {
+	return (
+		<header className='nav'>
+			<nav>
+				<ul className='navHome'>
+					<li>
+						<Link to='/'>Home</Link>
+					</li>
 
-                </ul>
-            </div>
-        </nav>
-    )
-}
+					<li id='logo'>
+						<Link to='/'>
+							<img id='logo' src={'./ProductImg/elogo.png'} alt='Pagines Her'></img>
+						</Link>
+					</li>
 
-export default NavBar;
+					<li>
+						<Link to='/product'>Products</Link>
+					</li>
+
+					<li>
+						<Link to='/contact'>Contact</Link>
+					</li>
+				</ul>
+			
+			</nav>
+		</header>
+	);
+};
+
+export default Navbar;
