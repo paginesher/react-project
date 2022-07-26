@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import '../../Components/PriceFilter/PriceFilter.css'
+
 
 
 export default class PriceFilter extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            high: 250,
+            high: 100,
             low: 0
         }
         this.handleChange = this.handleChange.bind(this);

@@ -5,16 +5,18 @@ import '../SCSS/Nav.scss'
 const Navbar = () => {
 	return (
 		<header className='nav'>
+
+				<div class='nav_logo'>
+						<Link to='/'>
+							<img class='nav__logo__img' src={'./ProductImg/elogo.png'} alt='Pagines Her'></img>
+						</Link>
+					</div>
 			<nav>
 				<ul className='navHome'>
+				
+
 					<li>
 						<Link to='/'>Home</Link>
-					</li>
-
-					<li id='logo'>
-						<Link to='/'>
-							<img id='logo' src={'./ProductImg/elogo.png'} alt='Pagines Her'></img>
-						</Link>
 					</li>
 
 					<li>

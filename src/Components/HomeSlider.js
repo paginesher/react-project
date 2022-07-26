@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import '../SCSS/Slider.scss'
 import ImgComp from '../Components/ImgComp'
 import i1 from '../SliderImg/hero.png'

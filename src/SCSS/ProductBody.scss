@@ -12,6 +12,10 @@
       height: 200px;
       width: 200px;
   }
+  button{
+
+    border-radius: .5rem;
+  }
 
   @media only screen and (min-width: 375px) {
     .grid-containers{
