@@ -8,13 +8,12 @@
     "@testing-library/user-event": "^7.2.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "loader": "^2.1.1",
     "mysql": "^2.18.1",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.3.3",
-    "react-scripts": "3.4.1",
-    "node": "16.16.0"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,6 +37,8 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "gulp-sass": "^5.1.0",
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.0"
   }
 }
