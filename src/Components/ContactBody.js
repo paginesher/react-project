@@ -28,7 +28,7 @@ export default class Contact extends Component {
       error_message.innerHTML = text;
       return false;
     }
-    if (email.indexOf("@") == -1 || email.length < 10) {
+    if (email.indexOf("@") === -1 || email.length < 10) {
       text = "Please Enter valid Email";
       error_message.innerHTML = text;
       return false;
